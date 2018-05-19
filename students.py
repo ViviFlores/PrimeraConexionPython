@@ -1,7 +1,7 @@
 from peewee import *
 
 db=SqliteDatabase('students.db')
-
+"""hola solo verguenzas"""
 class Student(Model):
     username=CharField(max_length=255,unique=True)
     points=IntegerField(default=0)
